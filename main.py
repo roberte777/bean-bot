@@ -101,4 +101,5 @@ async def on_reaction_add(reaction, user: discord.User):
                 msg = await settle_bet(user2, user1, amount, users)
                 await reaction.message.channel.send(msg)
 
-bot.run(TOKEN)
+if __name__ == '__main__':
+    bot.run(TOKEN)
