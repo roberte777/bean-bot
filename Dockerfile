@@ -1,4 +1,4 @@
-FROM python:3.10.6-slim-buster
+FROM arm32v7/python:3.10.6-buster
 WORKDIR /bot
 RUN pip install discord.py dataclass-wizard python-dotenv
 
