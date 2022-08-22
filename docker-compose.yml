@@ -1,6 +1,7 @@
 services:
     bot:
       image: roberte777/beanbot
+      env_file: .env
     watchtower:
       image: containrrr/watchtower
       volumes:
