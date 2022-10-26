@@ -7,6 +7,10 @@ name = "pypi"
 python-dotenv = "*"
 "discord.py" = "*"
 dataclass-wizard = "*"
+pylint = "*"
+pip = "*"
+install = "*"
+"discord.py-stubs" = "*"
 
 [dev-packages]
 black = "*"
